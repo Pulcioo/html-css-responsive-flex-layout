@@ -46,3 +46,41 @@ header{
 .header-right>span{
     font-size: 20px;
 }
+
+/* main */
+/* container-demo */
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* container-demo-top */
+.container-demo-top{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.big-square{
+    background-color: rgb(0, 119, 255);
+    height: 260px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.square{
+    background-color: lightgreen;
+    width: calc(100% / 3);
+    height: 260px;
+    border-radius: 10px;
+}
+
+/* container-demo-bottom */
+.container-demo-bottom{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
