@@ -24,6 +24,10 @@
     color: black;
 }
 
+.violet{
+    color:  rgb(123, 56, 199);
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -186,3 +190,97 @@ header{
 #bob{
     background-color: rgba(127, 255, 212, 0.6);
 }
+
+/* sezione benefits */
+.benefits{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(123, 56, 199);
+}
+
+.benefits{
+   text-align: center;
+}
+
+.benefits h1{
+    margin-top: 50px;
+ }
+
+.benefits-top{
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    margin-top: 50px;
+}
+
+.benefits-bottom{
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    margin-bottom: 50px;
+}
+
+.cards{
+    background-color: rgb(175, 174, 174);
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin: 10px 0;
+    width: 25%;
+}
+
+.cards>h1{
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+
+.cards>h3{
+    margin: 20px auto;
+}
+
+.cards>p{
+    font-size: small;
+    margin: 20px auto;
+}
+
+/* about-us */
+.container-about-us{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5rem;
+    padding-top: 50px;
+}
+
+.about-us-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.about-us-left h1{
+    font-size: 40px;
+}
+
+.about-us-left p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.about-us-right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(123, 56, 199);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
