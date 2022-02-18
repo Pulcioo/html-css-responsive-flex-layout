@@ -14,6 +14,16 @@
     margin-right: 10%;
 }
 
+.img{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.black{
+    color: black;
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -47,10 +57,10 @@ header{
     font-size: 20px;
 }
 
-/* main */
-/* container-demo */
+/****** main ******/
+/*** container-demo ***/
 
-.bg{
+.container-demo{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -83,4 +93,38 @@ header{
     display: flex;
     column-gap: 10px;
     margin-bottom: 50px;
+}
+
+/*** container-planning ***/
+.container-planning{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 56, 199);
+    padding-bottom: 50px;
+}
+
+.container-planning-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 20%;
+}
+
+.container-planning-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 50px;
+    margin-top: 150px;
+    padding: 20px;
+    width: 20%;
+}
+
+.container-planning-left .img{
+    margin-bottom: 30px;
+}
+
+.container-planning-right .img{
+    margin: 50px;
 }
