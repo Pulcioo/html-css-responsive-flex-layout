@@ -133,7 +133,7 @@ header{
     margin: 50px;
 }
 
-/* sezione expert-partners */
+/*** sezione expert-partners ***/
 .testimonials{
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ header{
     background-color: rgba(127, 255, 212, 0.6);
 }
 
-/* sezione benefits */
+/*** sezione benefits ***/
 .benefits{
     display: flex;
     flex-direction: column;
@@ -252,6 +252,7 @@ header{
     padding-top: 50px;
 }
 
+/* about-us left */
 .about-us-left{
     width: 50%;
     display: flex;
@@ -268,6 +269,7 @@ header{
     margin-bottom: 50px;
 }
 
+/* about-us rigt */
 .about-us-right{
     width: 20%;
     display: flex;
@@ -283,4 +285,48 @@ header{
     margin-bottom: 20px;
 }
 
+/*** get-started ***/
+.get-started{
+    background-color: rgb(123, 56, 199);
+    display: flex;
+    justify-content: center;
+}
+
+.container-get-started{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container-get-started h2{
+    margin-top: 50px;
+}
+
+.container-get-started h1{
+    color: orange;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.container-get-started p{
+    margin-bottom: 50px;
+}
+
+/****** footer ******/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 50, 50);
+}
+
+.container-footer{
+    width: 30%;
+    text-align: center;
+}
+
+.container-footer p{
+    font-size: small;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
