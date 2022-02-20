@@ -14,12 +14,6 @@
     margin-right: 10%;
 }
 
-.img{
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
-}
-
 .black{
     color: black;
 }
@@ -38,12 +32,13 @@ header{
     background-color: rgb(55, 55, 230);
     display: flex;
     width: 100%;
-    padding-bottom: 30px;
+    height: 60px;
 }
 
 /* header-left */
 .header-left{
     width: 40%;
+    line-height: 60px;
 }
 
 .header-left>h1{
@@ -55,10 +50,20 @@ header{
     width: 40%;
     display: flex;
     justify-content: space-between;
+    line-height: 60px;
+}
+
+.lorem{
+    flex-grow: 1;
+    text-align: end;
 }
 
 .header-right>span{
     font-size: 20px;
+}
+
+.bars{
+    display: none;
 }
 
 /****** main ******/
@@ -79,15 +84,36 @@ header{
 
 .big-square{
     background-color: rgb(0, 119, 255);
-    height: 260px;
+    height: 300px;
     border-radius: 10px;
-    flex-grow: 1;
+    width: calc((100% / 3) * 2);
+    display: flex;
+    flex-direction: row;
+}
+
+.big-square-text{
+    width: 50%;
+    padding: 10px;
+}
+
+.container-big-img{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.big-square-img{
+    background-color: rgb(11, 11, 107);
+    height: 230px;
+    width: 280px;
 }
 
 .square{
     background-color: lightgreen;
     width: calc(100% / 3);
-    height: 260px;
+    min-height: 300px;
     border-radius: 10px;
 }
 
@@ -95,8 +121,8 @@ header{
 .container-demo-bottom{
     margin-top: 10px;
     display: flex;
-    column-gap: 10px;
     margin-bottom: 50px;
+    column-gap: 10px;
 }
 
 /*** container-planning ***/
@@ -111,7 +137,7 @@ header{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    width: 20%;
+    width: 30%;
 }
 
 .container-planning-right{
@@ -122,7 +148,18 @@ header{
     margin: 50px;
     margin-top: 150px;
     padding: 20px;
-    width: 20%;
+    width: 30%;
+}
+
+.planning-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
 }
 
 .container-planning-left .img{
@@ -197,27 +234,19 @@ header{
     flex-direction: column;
     width: 100%;
     background-color: rgb(123, 56, 199);
-}
-
-.benefits{
-   text-align: center;
+    text-align: center;
 }
 
 .benefits h1{
     margin-top: 50px;
  }
 
-.benefits-top{
+.container-benefits{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 2%;
     margin-top: 50px;
-}
-
-.benefits-bottom{
-    display: flex;
-    justify-content: center;
-    column-gap: 2%;
     margin-bottom: 50px;
 }
 
@@ -226,7 +255,7 @@ header{
     border-radius: 15px;
     padding: 30px 20px;
     margin: 10px 0;
-    width: 25%;
+    width: 300px;
 }
 
 .cards>h1{
@@ -290,6 +319,7 @@ header{
     background-color: rgb(123, 56, 199);
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .container-get-started{

@@ -5,29 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="wrapper">
+        <!-- header -->
         <header>
+            <!-- header-left -->
             <div class="header-left margin-left">
                 <h1>Logo</h1>
             </div>
+            <!-- header-right -->
             <div class="header-right margin-right">
-                <span>lorem</span>
-                <span>lorem</span>
-                <span>lorem</span>
-                <span>lorem</span>
-                <span>lorem</span>
+                <div class="lorem">
+                    <span>lorem</span>
+                    <span>lorem</span>
+                    <span>lorem</span>
+                    <span>lorem</span>
+                    <span>lorem</span>
+                </div>
+                <div class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
         </header>
         <main>
             <!-- container-demo -->
             <div class="container-demo">
                 <div class="container-demo-top margin-left margin-right">
-                    <div class="big-square"></div>
+                    <div class="big-square">
+                        <div class="big-square-text">
+                            <h3>Lorem</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae non voluptatum rem
+                                soluta sapiente tenetur commodi cumque atque sit neque.
+                            </p>
+                        </div>
+                        <div class="container-big-img">
+                            <div class="big-square-img"></div>
+                        </div>
+                    </div>
                     <div class="square"></div>
                 </div>
 
@@ -40,7 +63,9 @@
             <!-- container-planning -->
             <div class="container-planning">
                 <div class="container-planning-left margin-left">
-                    <div class="img"></div>
+                    <div class="planning-img">
+                        <div id="dimension" class="img"></div>
+                    </div>
                     <h2>Lorem</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti nemo aliquam voluptatem
@@ -53,7 +78,9 @@
                     </p>
                 </div>
                 <div class="container-planning-right margin-right">
-                    <div class="img"></div>
+                    <div id="right" class="planning-img">
+                        <div class="img"></div>
+                    </div>
                     <h3 class="black">Lorem</h3>
                     <p class="black">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti nemo aliquam voluptatem
@@ -65,7 +92,7 @@
 
             </div>
             <!-- sezione expert-partners -->
-            <div class="expert-partners margin-left margin-right">
+            <div class="expert-partners">
                 <div class="testimonials">
                     <div class="text">
                         <h1>Lorem</h1>
@@ -108,7 +135,7 @@
             <!-- sezione benefits -->
             <div class="benefits">
                 <h1>Lore ipsum</h1>
-                <div class="benefits-top margin-left margin-right">
+                <div class="container-benefits margin-left margin-right">
                     <div class="cards">
                         <h1>01</h1>
                         <h3>Lorem</h3>
@@ -136,9 +163,7 @@
                             iure dolorum! Temporibus quos ad totam recusandae?
                         </p>
                     </div>
-                </div>
 
-                <div class="benefits-bottom margin-left margin-right">
                     <div class="cards">
                         <h1>01</h1>
                         <h3>Lorem</h3>
